@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[27]:
-
-
 #10809
 error = True
 S = input()
@@ -76,7 +70,6 @@ for I in range(len(S)-1,-1,-1) :
 print(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z)
 
 
-# In[41]:
 
 
 #10828
@@ -113,55 +106,5 @@ for i in range(N) :
             
 for i in range(len(answer)):
     print(answer[i])
-
-
-# In[93]:
-
-
-#15649
-
-S = input().split()
-
-N = int(S[0])
-M = int(S[1])
-while M<1 or N>8 or M>N :
-    S = input().split()
-    N = int(S[0])
-    M = int(S[1])
-
-a=[0 for i in range(M)]
-for i in range(1,N+1) :
-    a[i]=i
-    for j in range(1,len(a)) :
-        a[j] = j 
-        print(a)
-
-# def opop(N,M) :
-#     for i in range(1,N+1):
-#         print(i)
-# for i in range(1,N+1):
-#     opop(i,M)
-#for i in range(0,N+1) :
-#     for j in range(0,M+1) :
-#         if j == 1 and i!=0 :
-#             print(i)
-        
-#         elif i != j and i != 0 and j !=0 :
-#             print(i,j)
-            
-            
-
-
-# In[92]:
-
-
-a=[0 for i in range(3)]
-print(len(a))
-print(a[1])
-
-
-# In[ ]:
-
-
 
 
